@@ -18,6 +18,12 @@ public class DoublyLinkedList {
 
     }
 
+    /* getSizeOfLinkedList() - Returns the size of the linked list */
+
+    public int getSizeOfLinkedList() {
+        return sizeOfLinkedList;
+    }
+
     /*
      * Inserting Nodes
      * 
@@ -285,6 +291,8 @@ public class DoublyLinkedList {
         System.out.println("Node doesnt exist in this Linked List!");
         return -1;
     }
+
+    /* deleteLinkedList() -Deletes the linked list */
 
     public void deleteLinkedList() {
         head = null;
