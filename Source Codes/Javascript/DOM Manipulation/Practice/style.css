@@ -1,0 +1,20 @@
+.box{
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #00340e;
+    padding: 3em 1em;
+    
+}
+
+.box2{
+    width: 60%;
+    margin: 0.5em auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #00340e;
+    padding: 0.5em 1em;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="box">
+
+        <span>
+            <label for="agentName">Agent Name</label>
+            <input type="text" name="agentName" id="agentName" placeholder="Agent Name">
+        </span>
+        <span>
+            <label for="agentType">Agent Type</label>
+            <select name="AgentType" id="agentType">
+                <option value="Initiator" selected>Initiator</option>
+                <option value="Duelist">Duelist</option>
+                <option value="Sentinel">Sentinel</option>
+                <option value="Controller">Controller</option>
+            </select>
+        </span>
+
+        <button type="submit" class="btnGenerate">Generate Sentence</button>
+
+
+
+    </div>
+    <div class=" box2 output"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

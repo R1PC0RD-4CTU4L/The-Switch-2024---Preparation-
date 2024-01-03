@@ -48,5 +48,15 @@ public class main {
 
         System.out.println(sll1.searchNode(54));
 
+        /* Reversing Of Linked List! */
+        sll1.printList();
+        sll1.reverseLinkedList();
+        sll1.printList();
+
+        System.out.println(sll1.tail.value);
+        System.out.println(sll1.head.value);
+
+        System.out.println(Integer.MAX_VALUE);
+
     }
 }

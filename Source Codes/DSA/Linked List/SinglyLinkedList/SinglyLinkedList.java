@@ -262,6 +262,28 @@ public class SinglyLinkedList {
         return -1;
     }
 
+    /* Reverse Linked List - Reverses the linked list */
+    public void reverseLinkedList() {
+
+        tail = head;
+        Node previousNode = null;
+        Node currentNode = head;
+        Node nextNode = head.next;
+
+        while (currentNode != null) {
+            currentNode.next = previousNode;
+            previousNode = currentNode;
+            currentNode = nextNode;
+
+            if (nextNode != null) {
+                nextNode = nextNode.next;
+            }
+        }
+        System.out.println("LinkedList Reversed!");
+
+        head = previousNode;
+    }
+
     /* deleteLinkedList() - Deletes the entire linked list */
 
     public void deleteLinkedList() {
